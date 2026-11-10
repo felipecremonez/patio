@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#172e2b">
+  <title>Pátio · Estoque e frota</title>
+  <link rel="icon" href="/mark.svg">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><img src="/mark.svg" alt=""><div><strong>Pátio</strong><span>ESTOQUE E FROTA</span></div></div>
+      <p class="nav-label">OPERAÇÃO</p>
+      <nav id="nav" aria-label="Navegação principal"></nav>
+      <div class="sidebar-foot"><span id="mode">BASE LOCAL</span><small id="mode-caption">Dados deste computador</small></div>
+    </aside>
+    <main id="view" aria-busy="true"><p class="loading">Carregando sua operação…</p></main>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div id="dialog-body"></div></dialog>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

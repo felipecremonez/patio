@@ -1,0 +1,14 @@
+{
+  "name": "patio-estoque-frota",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs --demo",
+    "test": "node --test"
+  }
+}
